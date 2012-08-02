@@ -1,5 +1,13 @@
+
 @import "bootstrap";
+
+/*@import "font-awesome";*/
+
 body { padding-top: 60px; }
+
 @import "bootstrap-responsive";
+
+$navbarBackground: $red;
+
 @import "scaffolds";
 @import "posts";
