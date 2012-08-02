@@ -19,8 +19,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  
-  gem 'font-awesome-sass-rails'
 end
 
 gem "slim-rails"
@@ -34,6 +32,8 @@ gem 'client_side_validations'
 gem 'client_side_validations-simple_form'
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
+gem 'font-awesome-sass-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
