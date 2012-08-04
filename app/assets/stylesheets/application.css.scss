@@ -1,12 +1,13 @@
 
 @import "bootstrap";
 
+//redefine the navbarBackground, and reassign it. As it wont take effect, because navbar-inner was assigned before the red reassignment.
+$navbarBackground: $red;
+.navbar-inner { background: $navbarBackground; }
+
 body { padding-top: 60px; }
 
 @import "bootstrap-responsive";
-
-$navbarBackground: $red;
-
 @import "scaffolds";
 @import "posts";
 

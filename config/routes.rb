@@ -1,4 +1,6 @@
 Base::Application.routes.draw do
+  resources :font_awesomes
+
   resources :posts
 
   # The priority is based upon order of creation:
